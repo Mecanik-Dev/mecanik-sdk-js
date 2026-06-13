@@ -1,4 +1,4 @@
-# @mecanik/api
+# Mecanik API (TypeScript/JavaScript)
 
 Official TypeScript/JavaScript client for the [Mecanik API](https://mecanik.dev/en/api/): AI, security analysis, email, reports and developer utility endpoints. Pay-per-use credits, no subscription.
 
