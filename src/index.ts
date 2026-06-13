@@ -1,7 +1,7 @@
 /**
- * @mecanik/api - official TypeScript/JavaScript client for the Mecanik API.
+ * @mecanik-dev/api - official TypeScript/JavaScript client for the Mecanik API.
  *
- *   import { MecanikClient } from '@mecanik/api';
+ *   import { MecanikClient } from '@mecanik-dev/api';
  *   const mecanik = new MecanikClient({ accountId: 'YOUR_UUID', token: 'YOUR_TOKEN' });
  *   const res = await mecanik.tools.securityHeaders({ url: 'https://example.com' });
  *

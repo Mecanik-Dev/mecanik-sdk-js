@@ -7,13 +7,13 @@ Official TypeScript/JavaScript client for the [Mecanik API](https://mecanik.dev/
 ## Install
 
 ```bash
-npm install @mecanik/api
+npm install @mecanik-dev/api
 ```
 
 ## Quick start
 
 ```ts
-import { MecanikClient } from '@mecanik/api';
+import { MecanikClient } from '@mecanik-dev/api';
 
 const mecanik = new MecanikClient({
   accountId: 'YOUR_ACCOUNT_UUID',
@@ -32,7 +32,7 @@ const balance = await mecanik.credits(); // { credits: number }
 ## Error handling
 
 ```ts
-import { MecanikError } from '@mecanik/api';
+import { MecanikError } from '@mecanik-dev/api';
 
 try {
   await mecanik.tools.dnsLookup({ domain: 'example.com' });

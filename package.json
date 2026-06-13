@@ -1,6 +1,9 @@
 {
-  "name": "@mecanik/api",
+  "name": "@mecanik-dev/api",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Official TypeScript/JavaScript client for the Mecanik API: AI, security analysis, email, reports and developer utility endpoints.",
   "type": "module",
   "main": "dist/index.js",
