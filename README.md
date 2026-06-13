@@ -60,7 +60,7 @@ const result = await mecanik.call('/tools/hash-generate', { input: 'hello', algo
 
 - **AI:** `aiCodeReview`, `aiContentSummarize`, `aiSeoGenerate`, `aiTranslate`, `aiChat`, `aiImageGenerate`, `aiExtract`, `aiAltText`, `aiModeration`
 - **Security:** `securityHeaders`, `tlsCheck`, `techDetect`, `seoAnalyze`, `dnsLookup`, `openapiValidate`, `subdomainFinder`, `exposedFiles`
-- **Email:** `emailDeliverability`, `emailValidator`, `emailValidatorBulk`
+- **Email:** `emailDeliverability`, `emailValidator`, `emailValidatorBulk`, `emailSpamCheck`, `emailHeaderAnalyzer`, `emailBlacklistCheck`
 - **Reports:** `websiteAudit`, `performanceAudit`, `brokenLinkChecker`, `carbonFootprint`
 - **Utilities:** `qrGenerate`, `placeholderImage`, `hashGenerate`, `jwtDecode`, `passwordStrength`, `cronExplain`, `tokenCounter`, `jsonToCode`
 

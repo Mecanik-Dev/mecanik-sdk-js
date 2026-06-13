@@ -122,6 +122,9 @@ export class MecanikClient {
 		emailDeliverability: (body: Body) => this.t('email-deliverability', body),
 		emailValidator: (body: Body) => this.t('email-validator', body),
 		emailValidatorBulk: (body: Body) => this.t('email-validator-bulk', body),
+		emailSpamCheck: (body: Body) => this.t('email-spam-check', body),
+		emailHeaderAnalyzer: (body: Body) => this.t('email-header-analyzer', body),
+		emailBlacklistCheck: (body: Body) => this.t('email-blacklist-check', body),
 		// Premium Reports
 		websiteAudit: (body: Body) => this.t('website-audit', body),
 		performanceAudit: (body: Body) => this.t('performance-audit', body),
