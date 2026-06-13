@@ -36,7 +36,7 @@
   "homepage": "https://mecanik.dev/en/api/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mecanik/mecanik-sdk-js"
+    "url": "git+https://github.com/Mecanik-Dev/mecanik-sdk-js.git"
   },
   "bugs": {
     "url": "https://mecanik.dev/contact/"
