@@ -59,6 +59,7 @@ const result = await mecanik.call('/tools/hash-generate', { input: 'hello', algo
 `mecanik.tools.*` provides one method per endpoint:
 
 - **AI:** `aiCodeReview`, `aiContentSummarize`, `aiSeoGenerate`, `aiTranslate`, `aiChat`, `aiImageGenerate`, `aiExtract`, `aiAltText`, `aiModeration`
+- **Documents and media:** `urlScreenshot`, `htmlToPdf`, `urlToMarkdown`, `documentToMarkdown`, `ocr`, `invoiceExtract`, `speechToText`, `vatValidate`
 - **Security:** `securityHeaders`, `tlsCheck`, `techDetect`, `seoAnalyze`, `dnsLookup`, `openapiValidate`, `subdomainFinder`, `exposedFiles`
 - **Email:** `emailDeliverability`, `emailValidator`, `emailValidatorBulk`, `emailSpamCheck`, `emailHeaderAnalyzer`, `emailBlacklistCheck`
 - **Reports:** `websiteAudit`, `performanceAudit`, `brokenLinkChecker`, `carbonFootprint`
