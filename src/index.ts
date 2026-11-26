@@ -109,6 +109,15 @@ export class MecanikClient {
 		aiExtract: (body: Body) => this.t('ai-extract', body),
 		aiAltText: (body: Body) => this.t('ai-alt-text', body),
 		aiModeration: (body: Body) => this.t('ai-moderation', body),
+		// Documents, Media & Rendering
+		urlScreenshot: (body: Body) => this.t('url-screenshot', body),
+		htmlToPdf: (body: Body) => this.t('html-to-pdf', body),
+		urlToMarkdown: (body: Body) => this.t('url-to-markdown', body),
+		documentToMarkdown: (body: Body) => this.t('document-to-markdown', body),
+		ocr: (body: Body) => this.t('ocr', body),
+		invoiceExtract: (body: Body) => this.t('invoice-extract', body),
+		speechToText: (body: Body) => this.t('speech-to-text', body),
+		vatValidate: (body: Body) => this.t('vat-validate', body),
 		// Security & Website Analysis
 		securityHeaders: (body: Body) => this.t('security-headers', body),
 		tlsCheck: (body: Body) => this.t('tls-check', body),
